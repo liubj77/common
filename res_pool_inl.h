@@ -1,8 +1,8 @@
 // Filename: res_pool_inl.h
 // Author: liubj77 - liubj77@gmail.com
 
-#ifndef  _RES_POOL_INL_H_
-#define  _RES_POOL_INL_H_
+#ifndef  _COMMON_RES_POOL_INL_H_
+#define  _COMMON_RES_POOL_INL_H_
 
 namespace common {
 
