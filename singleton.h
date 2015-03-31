@@ -4,6 +4,8 @@
 #ifndef  _COMMON_SINGLETON_H_
 #define  _COMMON_SINGLETON_H_
 
+namespace common {
+
 #define DACLARE_SINGLETON(classname)        \
 public:                                     \
     static classname * instance() {         \
@@ -24,6 +26,8 @@ private:
 #define IMPLEMENT_SINGLETON(classname)      \
     classname * classname::s_instance_ = NULL;  \
     classname::classname() {}
+
+} /* namespace common */
 
 #endif //SINGLETON_H_
 
